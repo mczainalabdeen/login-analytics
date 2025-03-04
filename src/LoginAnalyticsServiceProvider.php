@@ -25,6 +25,14 @@ class LoginAnalyticsServiceProvider extends ServiceProvider
 
     public function register()
     {
+        // Debug: Check the contents of the config file
+        $config = require __DIR__.'/../config/login-analytics.php';
+        if (!is_array($config)) {
+            dd('Config file is not an array!', $config);  // Debugging line
+        }
+
+        // Merge the configuration
         $this->mergeConfigFrom(__DIR__.'/../config/login-analytics.php', 'login-analytics');
     }
+
 }
