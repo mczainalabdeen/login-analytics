@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "McZainalabdeen\\LoginAnalytics\\": "src/"
+            "LoginAnalytics\\": "src/"
         }
     },
     "extra": {
