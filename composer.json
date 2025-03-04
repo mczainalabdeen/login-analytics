@@ -18,6 +18,10 @@
     ],
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/mczainalabdeen/login-analytics"
+        },
+        {
             "type": "path",
             "url": "mczainalabdeen/login-analytics"
         }
