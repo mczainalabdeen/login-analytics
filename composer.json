@@ -1,0 +1,45 @@
+{
+    "name": "mczainalabdeen/login-analytics",
+    "version": "1.0.0",
+    "description": ":package_description",
+    "keywords": [
+        "mczainalabdeen",
+        "laravel",
+        "login-analytics"
+    ],
+    "homepage": "https://github.com/mczainalabdeen/login-analytics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zainalabdeen Radwan",
+            "email": "zain@zainalabdeen.io",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "mczainalabdeen/login-analytics"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/http": "^11.44",
+        "illuminate/database": "^11.44"
+    },
+    "autoload": {
+        "psr-4": {
+            "McZainalabdeen\\LoginAnalytics\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "McZainalabdeen\\LoginAnalytics\\LoginAnalyticsServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
