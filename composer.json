@@ -20,18 +20,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/mczainalabdeen/login-analytics"
-        },
-        {
-            "type": "path",
-            "url": "mczainalabdeen/login-analytics"
         }
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0|^10.0|^11.0",
-        "guzzlehttp/guzzle": "^7.0",
         "illuminate/http": "^11.44",
-        "illuminate/database": "^11.44"
+        "illuminate/database": "^11.44",
+        "illuminate/support": "^11.44",
+        "guzzlehttp/guzzle": "^7.9"
     },
     "autoload": {
         "psr-4": {
