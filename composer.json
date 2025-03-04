@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "McZainalabdeen\\LoginAnalytics\\LoginAnalyticsServiceProvider"
+                "LoginAnalytics\\LoginAnalyticsServiceProvider"
             ]
         }
     },
